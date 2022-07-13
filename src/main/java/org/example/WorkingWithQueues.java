@@ -17,5 +17,5 @@ public class WorkingWithQueues {
         System.out.println(supermarket.peek());
     }
 
-    static record Person(String nome, int age) {}
+    record Person(String nome, int age) {}
 }
